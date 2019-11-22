@@ -1,0 +1,50 @@
+h1 {
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.contact-main {
+    display: flex;
+    height: 45vh;
+}
+
+.contact-info {
+    padding: 0 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    border-right: 1px solid #c5c5c5;
+}
+
+input, textarea {
+    width: 350px;
+    text-indent: 10px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 50px;
+}
+
+.submit {
+    background-color: #b97e3a;
+    color: #fff;
+    width: 100px;
+    text-transform: uppercase;
+    text-indent: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px auto 0 auto;
+    /* margin-top: 10px; */
+}
+
+.submit:hover {
+    background-color: #af7737;
+    cursor: pointer;
+}

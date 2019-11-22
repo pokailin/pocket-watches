@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fun With Pocket Watches</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <a href="#">Classic Timepieces</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper">
+                <aside class="sidebar">
+                    <h3>Recent Posts</h3>
+                    <ul>
+                        <li><a href="#" onclick="changePost(1)">Post One</a></li>
+                        <li><a href="#" onclick="changePost(2)">Post Two</a></li>
+                        <li><a href="#" onclick="changePost(3)">Post Three</a></li>
+                        <li><a href="#" onclick="changePost(4)">Post Four</a></li>
+                    </ul>
+                </aside>
+                <section class="main">
+                    <figure>
+                        <img src="images/watch.jpg" alt="">
+                        <figcaption> Photo by David Bartus from Pexels</figcaption>
+                    </figure>
+                    <h2 id="change">Watches</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Repellat tenetur explicabo ipsam quisquam! Ea dolore quae 
+                        culpa nemo? Incidunt voluptas in porro possimus, necessitatibus 
+                        vero beatae dignissimos nulla quod est enim saepe dolor, 
+                        optio quisquam.
+                    </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Amet itaque quis molestiae neque aliquam id nobis possimus
+                        eos nemo pariatur.</p>
+                </section>
+            </div>
+
+            <div class="comments">
+                <h2>Leave a comment</h2>
+                <div class="comment">
+                    <header>
+                        <h4>12:00</h4>
+                        <h4>Adma Admasson</h4>
+                    </header>
+                    <div class="content">
+                        <p>Hello, everybody!</p>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="leave-comment">
+                <fieldset class="comment-form">
+                    <input type="text" name="name" id="name" placeholder="Your name...">
+                    <textarea name="content" id="content" cols="45" rows="5" placeholder="Enter your comment..."></textarea>
+                    <input type="submit" id="submit" value="Submit">
+                </fieldset>
+            </div>
+
+            <footer>
+                <h3>Generic Footer</h3>
+                <p>Copyright &copy; 2019</p>
+            </footer>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
